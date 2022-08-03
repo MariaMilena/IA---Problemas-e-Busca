@@ -1,8 +1,43 @@
-0;B
-1;C
-2;D
-3;G
-4;M
-5;R
-6;S
-7;V
+0;Pol Pri Pai Fo1 Fo2 Mae Fa1 Fa2 |
+1;Pol Pri Fo1 Fo2 Fa1 Fa2 | Pai Mae
+2;Pai Fo1 Fo2 Mae Fa1 Fa2 | Pol Pri
+3;Pol Pai Fo1 Fo2 Mae Fa1 Fa2 | Pri
+4;Pai Fo1 Fo2 Mae Fa2 | Pri Pol Fa1
+5;Pai Fo1 Fo2 Mae Fa2 | Pri Pol Fa2
+6;Pai Fo1 Fo2 Mae Fa2 | Pri Pol Fo1
+7;Pai Fo1 Fo2 Mae Fa2 | Pri Pol Fo2
+8;Pol Pri Pai Fo1 Fo2 Mae Fa2 | Fa1
+9;Pol Pri Pai Fo1 Fo2 Mae Fa1 | Fa2
+10;Pol Pri Pai Fo2 Mae Fa1 Fa2 | Fo1
+11;Pol Pri Pai Fo1 Mae Fa1 Fa2 | Fo2
+12;Pol Pri Pai Fo1 Fo2 | Mae Fa1 Fa2
+13;Pol Pri Mae Fa1 Fa2 | Pai Fo1 Fo2
+14;Pol Pri Pai Fo1 Fo2 Mae | Fa1 Fa2
+15;Pol Pri Mae Fa1 Fa2 Pai | Fo1 Fo2
+16;Pol Pri Fo1 Fo2 | Pai Mae Fa1 Fa2
+17;Pol Pri Fa1 Fa2 | Pai Mae Fo1 Fo2
+18;Pai Fo1 Fo2 Mae | Pol Pri Fa1 Fa2
+19;Mae Fa1 Fa2 Pai | Pol Pri Fo1 Fo2
+20;Pol Pri Pai Fo1 Fo2 | Mae Fa1 Fa2
+21;Pol Pri Mae Fa1 Fa2 | Pai Fo1 Fo2
+22;Pai Fo1 Fo2 | Pol Pri Mae Fa1 Fa2
+23;Mae Fa1 Fa2 | Pol Pri Pai Fo1 Fo2
+24;Pai Fo1 Fo2 Mae | Pol Pri Fa1 Fa2
+25;Mae Fa1 Fa2 Pai | Pol Pri Fo1 Fo2
+26;Fo1 Fo2 | Pol Pri Mae Fa1 Fa2 Pai
+27;Fa1 Fa2 | Pol Pri Pai Fo1 Fo2 Mae
+28;Pai Fo1 Fo2 | Pol Pri Mae Fa1 Fa2
+29;Pol Pri Fo1 Fo2 | Mae Fa1 Fa2 Pai
+30;Mae Fa1 Fa2 | Pol Pri Pai Fo1 Fo2
+31;Pol Pri Fa1 Fa2 | Pai Fo1 Fo2 Mae
+32;Fo2 | Pol Pri Mae Fa1 Fa2 Pai Fo1
+33;Fo1 | Pol Pri Mae Fa1 Fa2 Pai Fo2
+34;Fa2 | Pol Pri Pai Fo1 Fo2 Mae Fa1
+35;Fa1 | Pol Pri Pai Fo1 Fo2 Mae Fa2
+36;Pol Pri Fo2 | Mae Fa1 Fa2 Pai Fo1
+37;Pol Pri Fo1 | Mae Fa1 Fa2 Pai Fo2
+38;Pol Pri Fa2 | Pai Fo1 Fo2 Mae Fa1
+39;Pol Pri Fa1 | Pai Fo1 Fo2 Mae Fa2
+40;Pri | Pol Mae Fa1 Fa2 Pai Fo1 Fo2
+41;Pol Pri | Mae Fa1 Fa2 Pai Fo1 Fo2
+42;| Pol Pri Mae Fa1 Fa2 Pai Fo1 Fo2
