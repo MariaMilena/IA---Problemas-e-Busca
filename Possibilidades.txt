@@ -1,0 +1,62 @@
+Pol Pri Pai Fo1 Fo2 Mae Fa1 Fa2 |           X 0 -> 1 e 2
+
+Pol Pri Fo1 Fo2 Fa1 Fa2 | Pai Mae           X 1 -> 0
+Pai Fo1 Fo2 Mae Fa1 Fa2 | Pol Pri           X 2 -> 0 e 3
+
+Pol Pai Fo1 Fo2 Mae Fa1 Fa2 | Pri           X 3 -> 2, 4, 5, 6 e 7
+
+Pai Fo1 Fo2 Mae Fa2 | Pri Pol Fa1           X 4 -> 3 e 8
+Pai Fo1 Fo2 Mae Fa2 | Pri Pol Fa2           X 5 -> 3 e 9
+Pai Fo1 Fo2 Mae Fa2 | Pri Pol Fo1           X 6 -> 3 e 10
+Pai Fo1 Fo2 Mae Fa2 | Pri Pol Fo2           X 7 -> 3 e 11
+
+Pol Pri Pai Fo1 Fo2 Mae Fa2 | Fa1           X 8 -> 4 e 12
+Pol Pri Pai Fo1 Fo2 Mae Fa1 | Fa2           X 9 -> 5 e 12
+Pol Pri Pai Fo2 Mae Fa1 Fa2 | Fo1           X 10 -> 6 e 13
+Pol Pri Pai Fo1 Mae Fa1 Fa2 | Fo2           X 11 -> 7 e 13
+
+Pol Pri Pai Fo1 Fo2 | Mae Fa1 Fa2           X 12 -> 14, 8 e 9
+Pol Pri Mae Fa1 Fa2 | Pai Fo1 Fo2           X 13 -> 15, 10 e 11
+
+Pol Pri Pai Fo1 Fo2 Mae | Fa1 Fa2           X 14 -> 12, 16 e 18 
+Pol Pri Mae Fa1 Fa2 Pai | Fo1 Fo2           X 15 -> 13, 17 e 19
+
+Pol Pri Fo1 Fo2 | Pai Mae Fa1 Fa2           X 16 -> 14 e 20
+Pol Pri Fa1 Fa2 | Pai Mae Fo1 Fo2           X 17 -> 15 e 21
+Pai Fo1 Fo2 Mae | Pol Pri Fa1 Fa2           X 18 -> 14
+Mae Fa1 Fa2 Pai | Pol Pri Fo1 Fo2           X 19 -> 15
+
+Pol Pri Pai Fo1 Fo2 | Mae Fa1 Fa2           X 20 ->  16 e 22 
+Pol Pri Mae Fa1 Fa2 | Pai Fo1 Fo2           X 21 -> 17 e 23
+
+Pai Fo1 Fo2 | Pol Pri Mae Fa1 Fa2           X 22 -> 20 e 24
+Mae Fa1 Fa2 | Pol Pri Pai Fo1 Fo2           X 23 -> 21 e 25
+
+Pai Fo1 Fo2 Mae | Pol Pri Fa1 Fa2           X 24 -> 22 e 26
+Mae Fa1 Fa2 Pai | Pol Pri Fo1 Fo2           X 25 -> 23 e 27
+
+Fo1 Fo2 | Pol Pri Mae Fa1 Fa2 Pai           X 26 -> 24, 28 e 29
+Fa1 Fa2 | Pol Pri Pai Fo1 Fo2 Mae           X 27 -> 25, 30 e 31
+
+Pai Fo1 Fo2 | Pol Pri Mae Fa1 Fa2           X 28 -> 26, 32 e 33
+Pol Pri Fo1 Fo2 | Mae Fa1 Fa2 Pai           X 29 -> 26
+Mae Fa1 Fa2 | Pol Pri Pai Fo1 Fo2           X 30 -> 27, 34 e 35
+Pol Pri Fa1 Fa2 | Pai Fo1 Fo2 Mae           X 31 -> 27
+
+Fo2 | Pol Pri Mae Fa1 Fa2 Pai Fo1           X 32 -> 28 e 36
+Fo1 | Pol Pri Mae Fa1 Fa2 Pai Fo2           X 33 -> 28 e 37
+Fa2 | Pol Pri Pai Fo1 Fo2 Mae Fa1           X 34 -> 30 e 38
+Fa1 | Pol Pri Pai Fo1 Fo2 Mae Fa2           X 35 -> 30 e 39
+
+Pol Pri Fo2 | Mae Fa1 Fa2 Pai Fo1           X 36 -> 32 e 40
+Pol Pri Fo1 | Mae Fa1 Fa2 Pai Fo2           X 37 -> 33 e 40
+Pol Pri Fa2 | Pai Fo1 Fo2 Mae Fa1           X 38 -> 34 e 40
+Pol Pri Fa1 | Pai Fo1 Fo2 Mae Fa2           X 39 -> 35 e 40
+
+Pri | Pol Mae Fa1 Fa2 Pai Fo1 Fo2           X 40 -> 36, 37, 38, 39 e 41
+
+Pol Pri | Mae Fa1 Fa2 Pai Fo1 Fo2           X 41 -> 40 e 42
+
+| Pol Pri Mae Fa1 Fa2 Pai Fo1 Fo2           X 42 -> 41
+
+   
